@@ -18,58 +18,80 @@ const KNIGHT_MOVE_OFFSETS = [
     [-1, -2],
     [-2, -1],
 ]
+const WALKABLE_SQUARES = [
+    MAP_CHARS.validSquare,
+    MAP_CHARS.princess,
+]
+const MAP_SIZE = { width: 220, height: 220 }
+const INITIAL_KNIGHT_LOCATION = { y: MAP_SIZE.height / 2, x: MAP_SIZE.width / 2 }
 
 async function main() {
     const { sendInputToServer } = await openServerConnection(onServerResponse)
 
-    const absoluteLocation = { y: 0, x: 0 }
+    const absoluteKnightLocation = INITIAL_KNIGHT_LOCATION
     const alreadyVisitedLocations = {}
+    let pathToFollow = null
+    let map = new Map(Map.generateEmptyMapArray())
+
+    setInterval(() => {
+        const mapString = map.mapArray.map(row => row.join('')).join('\n')
+        fs.writeFile('./mapString.txt', mapString, () => {})
+    }, 1000)
+
     function sendMove(move) {
-        absoluteLocation.x += move.xDiff
-        absoluteLocation.y += move.yDiff
-        alreadyVisitedLocations[`${absoluteLocation.x}${absoluteLocation.y}`] = true
+        // console.debug('Sending move:', move.command);
+        absoluteKnightLocation.y = move.finalY
+        absoluteKnightLocation.x = move.finalX
         sendInputToServer(move.command)
     }
 
     function onServerResponse(serverData) {
+        alreadyVisitedLocations[`${absoluteKnightLocation.y},${absoluteKnightLocation.x}`] = true
+
         // Parse serverData to map array, and msg if any
-        let mapArray = serverData.split('\n').filter(line => line.length)
+        let relativeMapArray = serverData.split('\n').filter(line => line.length)
         let msg = undefined
-        if (mapArray.slice(-1).toString().startsWith('---')) msg = mapArray.pop()
-        mapArray = mapArray.map(row => row.split(''))
-        const map = new Map(mapArray)
+        if (relativeMapArray.slice(-1).toString().startsWith('---')) msg = relativeMapArray.pop()
+        relativeMapArray = relativeMapArray.map(row => row.split(''))
+        map.updateMapWithRelativeMap(relativeMapArray, absoluteKnightLocation)
 
         // Debug info
         if (msg) console.debug('New message!: ', msg)
-        console.debug('absoluteLocation', absoluteLocation)
-        console.debug(map.mapArray)
+        // console.debug('absolute location:', absoluteKnightLocation)
+        console.debug('visited squares count:', Object.values(alreadyVisitedLocations).length)
 
-        const finalMoves = traverseAllMoveOptionsToFindPrincessMove(map)
-        if (finalMoves) {
-            // We found a path to the princess
-            console.debug('We found a path to the princess:', finalMoves)
-            sendMove(finalMoves[0])
-            return
+        if (!pathToFollow) {
+            // Get path for princess
+            const pathForPrincess = map.pathfinder(move => move.thingThere === MAP_CHARS.princess)
+            if (pathForPrincess) {
+                // We found a path to the princess
+                console.debug('We found a path to the princess:', pathForPrincess)
+                pathToFollow = pathForPrincess
+            }
+        }
+        if (!pathToFollow) {
+            // Get path for non-visited square
+            const pathForNotVisitedSquare = map.pathfinder(move => {
+                return !alreadyVisitedLocations[`${move.finalY},${move.finalX}`]
+            })
+            if (pathForNotVisitedSquare) {
+                pathToFollow = pathForNotVisitedSquare
+            }
         }
 
-        const validMoves = map.calculateValidMoves()
-
-        // Random move to nonvisited place
-        const nonVisitedMoves = validMoves.filter(move => {
-            const moveLocation = {
-                x: absoluteLocation.x + move.xDiff,
-                y: absoluteLocation.y + move.yDiff,
+        // Follow path
+        if (pathToFollow) {
+            sendMove(pathToFollow.shift())
+            if (pathToFollow.length === 0) {
+                pathToFollow = null
             }
-            return !alreadyVisitedLocations[`${moveLocation.x}${moveLocation.y}`]
-        })
-        if (nonVisitedMoves.length) {
-            const move = nonVisitedMoves[Math.floor(Math.random() * nonVisitedMoves.length)]
-            sendMove(move)
             return
         }
 
         // Random move to already visited palce
+        const validMoves = map.calculateValidMoves()
         if (validMoves.length) {
+            console.debug('Unable to find unvisited squares. Moving to a random one')
             const move = validMoves[Math.floor(Math.random() * validMoves.length)]
             sendMove(move)
             return
@@ -78,24 +100,6 @@ async function main() {
         // No valid moves. Shouldn't ever fire
         throw new Error('No valid moves found!')
     }
-
-    const result = ''
-    fs.writeFileSync('./result.txt', result)
-}
-
-function traverseAllMoveOptionsToFindPrincessMove(map, previousMoves = []) {
-    // Found princess
-    if (previousMoves.slice(-1).thingThere === MAP_CHARS.princess) {
-        return previousMoves
-    }
-
-    // Find ramification options
-    const validMoves = map.calculateValidMoves()
-    const possiblePaths = validMoves.map(move => {
-        const newMap = map.getNewMapWithSimulatedMove(move.xDiff, move.yDiff)
-        return traverseAllMoveOptionsToFindPrincessMove(newMap, [...previousMoves, move])
-    })
-    return possiblePaths.find(Boolean) || null
 }
 
 class Map {
@@ -103,9 +107,30 @@ class Map {
         this.mapArray = mapArray
     }
 
+    static generateEmptyMapArray() {
+        const mapArray = []
+        for (let col = 0; col <= MAP_SIZE.height; col++) {
+            mapArray[col] = []
+            for (let row = 0; row <= MAP_SIZE.width; row++) {
+                mapArray[col][row] = MAP_CHARS.unknown
+            }
+        }
+        return mapArray
+    }
+
+    updateMapWithRelativeMap(relativeMapArray, position) {
+        relativeMapArray.forEach((row, rowIndex) => {
+            row.forEach((thing, colIndex) => {
+                const x = position.x + colIndex - 2
+                const y = position.y + rowIndex - 2
+                this.setSquareContent(x, y, thing)
+            })
+        })
+    }
+
     // Replaces knight with invalidSquare so that we don't go back to same thing
     // Pretty bad code, pretty fast to implement
-    getNewMapWithSimulatedMove(xDiff, yDiff) {
+    getNewMapWithSimulatedKnightMove(xDiff, yDiff) {
         const newMapArray = JSON.parse(JSON.stringify(this.mapArray))
         const newMap = new Map(newMapArray)
         const knightPosition = newMap.getThingSquarePosition(MAP_CHARS.knight)
@@ -120,16 +145,20 @@ class Map {
         return KNIGHT_MOVE_OFFSETS.map(([yDiff, xDiff]) => {
             const thingThere = this.getSquareContent(knightPosition.x + xDiff, knightPosition.y + yDiff)
             return {
+                finalY: knightPosition.y + yDiff,
+                finalX: knightPosition.x + xDiff,
                 yDiff,
                 xDiff,
                 thingThere,
             }
         }).filter(({ thingThere }) => {
-            return thingThere === MAP_CHARS.validSquare || thingThere === MAP_CHARS.princess
-        }).map(({ yDiff, xDiff, thingThere }) => {
+            return WALKABLE_SQUARES.includes(thingThere)
+        }).map(({ finalY, finalX, yDiff, xDiff, thingThere }) => {
             const yAxis = yDiff > 0 ? `${yDiff}D` : `${-yDiff}U`
             const xAxis = xDiff > 0 ? `${xDiff}R` : `${-xDiff}L`
             return {
+                finalY,
+                finalX,
                 yDiff,
                 xDiff,
                 thingThere,
@@ -142,18 +171,47 @@ class Map {
         return this.mapArray.map((row, rowIndex) => {
             const colIndex = row.findIndex(tile => tile === thing)
             if (colIndex === -1) return false
-            return { x: colIndex, y: rowIndex }
+            return { y: rowIndex, x: colIndex }
         }).find(Boolean)
     }
 
     getSquareContent(x, y) {
-        if (!this.mapArray[y] || !this.mapArray[y][x]) return MAP_CHARS.unknown
+        if (!this.mapArray[y] || !this.mapArray[y][x]) return MAP_CHARS.invalidSquare
         return this.mapArray[y][x]
     }
 
     setSquareContent(x, y, thing) {
         if (!this.mapArray[y] || !this.mapArray[y][x]) return
         this.mapArray[y][x] = thing
+    }
+
+    pathfinder(moveCheckCallback, previousMoves = [], alreadyTriedSquares = {}) {
+        // Limit depth
+        if (previousMoves.length >= 500) return null
+
+        // Find ramification options
+        const possiblePaths = this.calculateValidMoves()
+            .filter(move => {
+                return !alreadyTriedSquares[`${move.finalY},${move.finalX}`]
+            })
+            .map(move => {
+                alreadyTriedSquares[`${move.finalY},${move.finalX}`] = true
+    
+                // Find accepted moves
+                if (moveCheckCallback(move)) {
+                    return [...previousMoves, move]
+                }
+
+                // Go deeper
+                const newMap = this.getNewMapWithSimulatedKnightMove(move.xDiff, move.yDiff)
+                return newMap.pathfinder(moveCheckCallback, [...previousMoves, move], alreadyTriedSquares)
+            })
+            .filter(Boolean)
+            .sort((a, b) => a.length > b.length ? 1 : -1)
+        if (possiblePaths.length) return possiblePaths[0]
+
+        // Nothing found
+        return null
     }
 }
 
@@ -163,7 +221,6 @@ function openServerConnection(callback) {
         client.connect(2003, '52.49.91.111', function () {
             console.debug('[requestCastleFromServer] Connected');
             const sendInputToServer = (...params) => {
-                console.debug('[requestCastleFromServer] Sending input: ' + params);
                 client.write(...params)
             }
             resolve({ sendInputToServer })
