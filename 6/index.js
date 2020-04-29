@@ -21,6 +21,7 @@ const KNIGHT_MOVE_OFFSETS = [
 const WALKABLE_SQUARES = [
     MAP_CHARS.validSquare,
     MAP_CHARS.princess,
+    MAP_CHARS.knight,
 ]
 const MAP_SIZE = { width: 220, height: 220 }
 const INITIAL_KNIGHT_LOCATION = { y: MAP_SIZE.height / 2, x: MAP_SIZE.width / 2 }
@@ -35,7 +36,7 @@ async function main() {
 
     setInterval(() => {
         const mapString = map.mapArray.map(row => row.join('')).join('\n')
-        fs.writeFile('./mapString.txt', mapString, () => {})
+        fs.writeFile('./mapString.txt', mapString, () => { })
     }, 1000)
 
     function sendMove(move) {
@@ -56,13 +57,16 @@ async function main() {
         map.updateMapWithRelativeMap(relativeMapArray, absoluteKnightLocation)
 
         // Debug info
+        //console.debug(relativeMapArray)
         if (msg) console.debug('New message!: ', msg)
-        // console.debug('absolute location:', absoluteKnightLocation)
+        //console.debug('absolute location:', absoluteKnightLocation)
         console.debug('visited squares count:', Object.values(alreadyVisitedLocations).length)
+
+        const knightPosition = map.getThingSquarePosition(MAP_CHARS.knight)
 
         if (!pathToFollow) {
             // Get path for princess
-            const pathForPrincess = map.pathfinder(move => move.thingThere === MAP_CHARS.princess)
+            const pathForPrincess = map.pathfinder(knightPosition, move => move.thingThere === MAP_CHARS.princess)
             if (pathForPrincess) {
                 // We found a path to the princess
                 console.debug('We found a path to the princess:', pathForPrincess)
@@ -71,7 +75,7 @@ async function main() {
         }
         if (!pathToFollow) {
             // Get path for non-visited square
-            const pathForNotVisitedSquare = map.pathfinder(move => {
+            const pathForNotVisitedSquare = map.pathfinder(knightPosition, move => {
                 return !alreadyVisitedLocations[`${move.finalY},${move.finalX}`]
             })
             if (pathForNotVisitedSquare) {
@@ -89,7 +93,7 @@ async function main() {
         }
 
         // Random move to already visited palce
-        const validMoves = map.calculateValidMoves()
+        const validMoves = map.calculateValidMoves(knightPosition)
         if (validMoves.length) {
             console.debug('Unable to find unvisited squares. Moving to a random one')
             const move = validMoves[Math.floor(Math.random() * validMoves.length)]
@@ -128,25 +132,12 @@ class Map {
         })
     }
 
-    // Replaces knight with invalidSquare so that we don't go back to same thing
-    // Pretty bad code, pretty fast to implement
-    getNewMapWithSimulatedKnightMove(xDiff, yDiff) {
-        const newMapArray = JSON.parse(JSON.stringify(this.mapArray))
-        const newMap = new Map(newMapArray)
-        const knightPosition = newMap.getThingSquarePosition(MAP_CHARS.knight)
-        newMap.setSquareContent(knightPosition.x, knightPosition.y, MAP_CHARS.invalidSquare)
-        newMap.setSquareContent(knightPosition.x + xDiff, knightPosition.y + yDiff, MAP_CHARS.knight)
-        return newMap
-    }
-
-    calculateValidMoves() {
-        const knightPosition = this.getThingSquarePosition(MAP_CHARS.knight)
-
+    calculateValidMoves(position) {
         return KNIGHT_MOVE_OFFSETS.map(([yDiff, xDiff]) => {
-            const thingThere = this.getSquareContent(knightPosition.x + xDiff, knightPosition.y + yDiff)
+            const thingThere = this.getSquareContent(position.x + xDiff, position.y + yDiff)
             return {
-                finalY: knightPosition.y + yDiff,
-                finalX: knightPosition.x + xDiff,
+                finalY: position.y + yDiff,
+                finalX: position.x + xDiff,
                 yDiff,
                 xDiff,
                 thingThere,
@@ -185,30 +176,33 @@ class Map {
         this.mapArray[y][x] = thing
     }
 
-    pathfinder(moveCheckCallback, previousMoves = [], alreadyTriedSquares = {}) {
-        // Limit depth
-        if (previousMoves.length >= 500) return null
+    pathfinder(knightPosition, moveCheckCallback) {
+        const visited = {}
+        const heap = [{ position: knightPosition, parent: null }]
 
-        // Find ramification options
-        const possiblePaths = this.calculateValidMoves()
-            .filter(move => {
-                return !alreadyTriedSquares[`${move.finalY},${move.finalX}`]
-            })
-            .map(move => {
-                alreadyTriedSquares[`${move.finalY},${move.finalX}`] = true
-    
-                // Find accepted moves
+        while (heap.length) {
+            const { position, parent } = heap.shift()
+            if (visited[`${position.y},${position.x}`]) continue
+            visited[`${position.y},${position.x}`] = true
+
+            const validMoves = this.calculateValidMoves(position)
+            for (const move of validMoves) {
                 if (moveCheckCallback(move)) {
-                    return [...previousMoves, move]
+                    const result = [move]
+                    let nextParent = parent
+                    while (nextParent) {
+                        result.unshift(nextParent.move)
+                        nextParent = nextParent.parent
+                    }
+                    return result
                 }
-
-                // Go deeper
-                const newMap = this.getNewMapWithSimulatedKnightMove(move.xDiff, move.yDiff)
-                return newMap.pathfinder(moveCheckCallback, [...previousMoves, move], alreadyTriedSquares)
-            })
-            .filter(Boolean)
-            .sort((a, b) => a.length > b.length ? 1 : -1)
-        if (possiblePaths.length) return possiblePaths[0]
+                heap.push({
+                    move,
+                    position: { y: move.finalY, x: move.finalX },
+                    parent: { move, parent }
+                })
+            }
+        }
 
         // Nothing found
         return null
