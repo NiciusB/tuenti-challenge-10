@@ -1,40 +1,48 @@
 🚪
+🤵 steward
+🛎 bell. ???
+
 💬 talk [TALK=1]
+✋ grab stuff to bag [GRAB=1]
 🎒 bag
 🔦 alias of ls
 🗣 alias of echo
 🚶 alias of cd
-🔎 for reading stuff
-✋ grab stuff to bad
-🛎 bell. ???
+🔎 for reading stuff (alias of cat or smth?)
+
+-- PENDING --
+
+---SOLVED ---
+
+💬 🚪101/🧚 lost ladybird
+🚶 🚪🚾/🕳
+✋🐞
+🚶../..
 
 💬 🚪102/🧙 needs
 an intact healthy brain (DONE)
 400 ml of blood (DONE)
 some batteries (DONE)
 a cookie (DONE)
-a cup of coffee
-
-💬 🚪101/🧚 lost who knows???
+a cup of coffee (DONE)
 
 💬 🚪108/🧞 needs oil lamp
-idea: something with 🚪🚾/🚽
-idea: something with 🚪🚾/🕳️
+Ctrl + Z
 
----SOLVED:---
-
-💬 🚪107/🤖 lost exit code
+💬 🚪107/🤖 lost exit code (242)
 i=0
 while [[ $i -le 300 ]]; do i=$((i + 1)); 🗣  $i | 🚪107/🤖; done
 
-💬 🚪106/🧛 needs finishing poem
+💬 🚪106/🧛 needs finishing poem (LOOK AT THIS CROWN I STOLE IT FOR YOU)
 🔎 🚪🚾/🧻
 
 💬 🚪103/👻 lost ring
 🔦 -la
+✋ 🚪103/.💍
 
 💬 🚪104/🧜 lost crown
 got it from vampire
+✋ 🚪106/👑
 
 💬 🚪105/🧟 riddle
 🗣 119 | 🚪105/🧟
