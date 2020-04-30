@@ -17,6 +17,6 @@ const plainText2Num = BigInt('0x' + plaintext2.toString('hex'))
 
 const byteValue = bigintCryptoUtils.gcd(plainText1Num ** exponent - ciphered1Num, plainText2Num ** exponent - ciphered2Num)
 
-const output = BigInt('0x' + byteValue.toString('hex'))
+const output = byteValue.toString('10')
 console.log(output)
 fs.writeFileSync('./result.txt', output)
