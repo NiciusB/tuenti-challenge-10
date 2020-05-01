@@ -131,9 +131,11 @@ async function main() {
         } else if (line.startsWith('BAD COMMAND IGNORED:')) {
             if (
                 line === 'BAD COMMAND IGNORED: Not enough promises' ||
+                line === 'BAD COMMAND IGNORED: Cluster membership must be modified one by one' ||
                 line.startsWith('BAD COMMAND IGNORED: Invalid Dest Id ')
             ) {
-                // ignore this error, since it's normal for it to happen sometimes. even tho maybe not? i'd have do research
+                // ignore these errors, since it's normal for them to happen sometimes.
+                // even tho maybe not? i'd have do research
                 return
             }
 
@@ -144,30 +146,29 @@ async function main() {
     }
 
     // System status
-    const serversList = new Set()
+    let serversList = new Set()
     let currentSecretOwner
-    function updateServersList(servers) {
-        serversList.clear()
-        servers.forEach(sID => serversList.add(sID))
+    function updateServersList(servers, secretOwner) {
+        serversList = new Set(servers)
+        currentSecretOwner = secretOwner
     }
 
     // ACCEPTED
     function onAccepted({ roundID, num, servers, secretOwner, roundFinished }) {
-        updateServersList(servers)
-        currentSecretOwner = secretOwner
+        updateServersList(servers, secretOwner)
 
         //console.log('ACCEPTED', { roundID, num, servers, secretOwner, roundFinished })
     }
 
     // LEARN
     function onLearn({ roundID, num, servers, secretOwner, roundFinished }) {
-        updateServersList(servers)
+        updateServersList(servers, secretOwner)
+
         //console.log('LEARN', { roundID, num, servers, secretOwner, roundFinished })
     }
 
     // ACCEPT
     function onAccept({ roundID, n, preparingServer, targetServer, servers, secretOwner }) {
-        updateServersList(servers)
         //console.log('ACCEPT', { roundID, n, preparingServer, targetServer, servers, secretOwner })
     }
 
@@ -211,10 +212,6 @@ async function main() {
     function plotToBecomeOwner() {
         number += 10
         console.log('[plotToBecomeOwner]', serversList)
-        if (serversList.size <= 3 && Math.random() < 0.5) {
-            setTimeout(plotToBecomeOwner, 500)
-            return
-        }
         startPromisePhase()
 
         function startPromisePhase() {
@@ -233,21 +230,16 @@ async function main() {
         }
         function startAcceptPhase({ removePromiseListener, promisedServers }) {
             removePromiseListener()
-            setTimeout(plotToBecomeOwner, 10)
+            setTimeout(plotToBecomeOwner, 1000)
             if (!compareSet(promisedServers, serversList)) return
 
             const promisedServersArray = Array.from(promisedServers)
             let secretOwner = currentSecretOwner
 
-            // Start Experiment: mess with servers list
-            if (promisedServersArray.length > 3) {
-                const indexToRemove = promisedServersArray
-                    .findIndex(serverID => serverID !== secretOwner && serverID !== SELF_SERVER_ID)
-                promisedServersArray.splice(indexToRemove, 1)
-            } else {
+            if (Math.random() < 0.1) {
+                // Maybe i can get enough trust?
                 secretOwner = SELF_SERVER_ID
             }
-            // End Experiment: mess with servers list
 
             sendAccept({
                 n: number,
