@@ -1,0 +1,379 @@
+SERVER ID: 9
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMWWNNNNWWMMMMMMMMMMMMMMMMMMMWNNNNWWMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMWNKOxdolcllx0NMMMMMMMMMMMMMMMWXkolcclodk0XWMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMWXOdl:;;;;;;:;::dXMMMMMMMMMMMMMW0l;;;;;;;;;;:lx0XWMMMMMWMMMMMMMMM
+MMMMMMMMMMMMWXOo:,,;;;;;;;;;::::kWMMMMMMMMMMMMXo;:;;;;;;,;;,,,,cd0NWWMMMMMMMMMMM
+MMMMMMMMMWWXxc,,,,,;;;;;;;;;;;::kWMMMMMMMMMMMMXo;;;;;;;;;;,,,,,,,;lONWWMMMMMMMMM
+MMMMMMMMWNOc,,,,,,,,;;;;;;;;;;:dXMMMMMMMMMMMMMW0l;;;;;;;,;,,,,,,,,';oKWMMMMMMMMM
+MMMMMMMMNk;',,,,,,,;;;;;;;::coONMMMMMMMMMMMMMMMWKxlc;;;;;;,,,,,,,''''cKWMMMMMMMM
+MMMMMMMWO;',,',,,,,;;;;;;:x0XWMMMMMMMMMMMMMMMMMMMWNKOl;;;;,,,,,,,'''''lXMMMMMMMM
+MMMMMMMKc''',,,,,,,;;;;;;:xXNWMMMMMMMMMMMMMMMMMMMMWNKo;;;;,,,,,,,''''''dWMMMMMMM
+MMMMMMWk,'''',,,,,,;;;;;;;:cokXWMMMMMMMMMMMMMMMMW0xlc;;;;;,,,,,,,'''''.cKMMMMMMM
+MMMMMMNo''''',,,,,,;;;;;;;;::;oXMMMMMMMMMMMMMMMWOc;;;;;;;;,,,,,,''''''.,kWMMMMMM
+MMMMMMXc.'''',,,,,,;;;;;;;;;:;c0MMMMMMMMMMMMMMMWx;;;;;;;;;,,,,,,''''''''xWMMMMMM
+MMMMMMK:'''',',,,,,;;;;;;;;;;;c0MMMMMMMMMMMMMMMWx;;;;;;;;;,,,,,,,'''''''oNMMMMMM
+MMMMMM0:'''',',,,,,;;;;;;;;;:;c0MMMMMMMMMMMMMMMWx;;;;;;;;;,,,,,,,''''''.oNMMMMMM
+MMMMMM0:'''',,,,,,,;;;;;;;;;:;c0MMMMMMMMMMMMMMMWx;;;;;;;;;,,,,,,,,'''''.oNMMMMMM
+MMMMMMK:'''',,,,,,,;;;;;;;;;:;c0MMMMMMMMMMMMMMMWx;;;;;;;;;,,,,,,,''''''.oWMMMMMM
+MMMMMMXl'''',,,,,,,;;;;;;;;;:;c0MMMMMMMMMMMMMMMWx;;;;;;;;;,,,,,,,'''''.,xWMMMMMM
+MMMMMMWx,''',,,,,,,;;;;;;;;;:;c0MMMMMMMMMMMMMMMWx;;;;;;;;;,,,,,,,'''''.:0MMMMMMM
+MMMMMMMKc''',,,,,,,;;;;;;;;;:;c0MMMMMMMMMMMMMMMWx;;;;;;;;;,,,,,,,''''''dWMMMMMMM
+MMMMMMMWO;'',,,,,,,;;;;;;;;;:;c0MMMMMMMMMMMMMMMWx;;;;;;;;;,,,,,,,'''''lXMMMMMMMM
+MMMMMMMMNk:'',,,,,,;;;;;;;;;:;c0MMMMMMMMMMMMMMMWx;;;;;;;;;,,,,,,','''lKWMMMMMMMM
+MMMMMMMMMW0c,,,,,,,;;;;;;;;;:;c0MMMMMMMMMMMMMMMWx;;;;;;;;;;,,,,,,,',oXMMMMMMMMMM
+MMMMMMMMMMWXx:,,,,,;;;;;;;;;;;c0MMMMMMMMMMMMMMMWx:;;;;;;;;,,,,,,',cONMMMMMMMMMMM
+MMMMMMMMMMMMWKxc;,,;;;;;;;;;:;c0MMMMMMMMMMMMMMMWx;;;;;;;;;,,,,,;lONWMMMMMMMMMMMM
+MMMMMMMMMMMMMMWXOdc;;,;;;;;;;;lKMMMMMMMMMMMMMMMWk:;;;;;;;,,;:lx0NWMMMWMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMNKkdoc:;;:co0WMMMMMMMMMMMMMMMMXkl:;;;:loxOKWMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMWWNK000XNWMMMMMMMMMMMMMMMMMMWNK00KXNWWMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMWK0000000XWMWKKNMMN0000000KXNMMNKKWMMMX0XMMWX0NMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMNOxkOOOO0XWMW0kNMMN0OOOOOkkOXMMNOkKXKXOkKMMW0kNMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMWKO00OOOk0WMW0kNMMN0O0O0OkkOXMMWK00000kkKMMW0kKNNNNNWMMMMMMMMMMMMMM
+MMMMMMMMMMMMMWK000000OKWMWKONMMNK00000O0KNMMNK0000000NMMWXO000000KWMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMWWWWWNNWMMWWWWWMMWWWWNWWWMWWMWWWWMWWWWWWMMWWWWWWWWMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMXO0K0KNMXKNWXKNWKO000KWWNXK0KXNWN00000NMX0K0KKKNMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMKO00O0NMXO00OOXWKO00O0NMMWW0KWWMKkOOO0XMKONKKN0KMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMNXXXKXWMNKKXKXWWNXXXKXWMMMWXNMMMNKKKXXNMNXWNNWXNMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+Welcome to the SIBYL SYSTEM, node 9 (be mindful of spoilers if you search it)
+################################################################################
+Since you're new, most of the Paxos protocol operations are automatic.
+You're only able to use the PREPARE and ACCEPT commands:
+PREPARE {<positive_int>,9} -> <dest>
+ACCEPT {id: {<positive_int>,<positive_int>}, value: {servers: <server_list>, secret_owner: <positive_int>}} -> <dest>
+################################################################################
+AUTOJOIN CLUSTER ENABLED
+ROUND 499: 9 -> LEARN {servers: [1,2,3,4,5,6,7,8,9], secret_owner: 1} (ROUND FINISHED)
+ROUND 500: 6 -> ACCEPTED {servers: [1,2,3,4,5,7,8,9], secret_owner: 1}
+ROUND 500: 1 -> ACCEPTED {servers: [1,2,3,4,5,7,8,9], secret_owner: 1}
+ROUND 500: 2 -> ACCEPTED {servers: [1,2,3,4,5,7,8,9], secret_owner: 1}
+ROUND 500: 7 -> ACCEPTED {servers: [1,2,3,4,5,7,8,9], secret_owner: 1}
+ROUND 500: 8 -> ACCEPTED {servers: [1,2,3,4,5,7,8,9], secret_owner: 1}
+ROUND 500: 9 -> LEARN {servers: [1,2,3,4,5,7,8,9], secret_owner: 1} (ROUND FINISHED)
+ROUND 501: PREPARE {10,9} -> 1
+ROUND 501: PREPARE {10,9} -> 2
+ROUND 501: PREPARE {10,9} -> 3
+ROUND 501: 1 -> PROMISE {10,9} no_proposal
+ROUND 501: PREPARE {10,9} -> 4
+ROUND 501: 2 -> PROMISE {10,9} no_proposal
+ROUND 501: 3 -> PROMISE {10,9} no_proposal
+ROUND 501: PREPARE {10,9} -> 5
+ROUND 501: 4 -> PROMISE {10,9} no_proposal
+ROUND 501: PREPARE {10,9} -> 7
+ROUND 501: 5 -> PROMISE {10,9} no_proposal
+ROUND 501: PREPARE {10,9} -> 8
+ROUND 501: PREPARE {10,9} -> 9
+ROUND 501: 7 -> PROMISE {10,9} no_proposal
+ROUND 501: 8 -> PROMISE {10,9} no_proposal
+ROUND 501: 9 -> PREPARE {10,9}
+ROUND 501: PROMISE {10,9} no_proposal -> 9
+ROUND 501: 9 -> PROMISE {10,9} no_proposal
+ROUND 501: ACCEPT {id: {10,9}, value: {servers: [1,3,4,5,7,8,9], secret_owner: 1}} -> 1
+ROUND 501: ACCEPT {id: {10,9}, value: {servers: [1,3,4,5,7,8,9], secret_owner: 1}} -> 3
+ROUND 501: ACCEPT {id: {10,9}, value: {servers: [1,3,4,5,7,8,9], secret_owner: 1}} -> 4
+ROUND 501: 1 -> ACCEPTED {servers: [1,3,4,5,7,8,9], secret_owner: 1}
+ROUND 501: ACCEPT {id: {10,9}, value: {servers: [1,3,4,5,7,8,9], secret_owner: 1}} -> 5
+ROUND 501: 3 -> ACCEPTED {servers: [1,3,4,5,7,8,9], secret_owner: 1}
+ROUND 501: 4 -> ACCEPTED {servers: [1,3,4,5,7,8,9], secret_owner: 1}
+ROUND 501: ACCEPT {id: {10,9}, value: {servers: [1,3,4,5,7,8,9], secret_owner: 1}} -> 7
+ROUND 501: 5 -> ACCEPTED {servers: [1,3,4,5,7,8,9], secret_owner: 1}
+ROUND 501: ACCEPT {id: {10,9}, value: {servers: [1,3,4,5,7,8,9], secret_owner: 1}} -> 8
+ROUND 501: 7 -> ACCEPTED {servers: [1,3,4,5,7,8,9], secret_owner: 1}
+ROUND 501: ACCEPT {id: {10,9}, value: {servers: [1,3,4,5,7,8,9], secret_owner: 1}} -> 9
+ROUND 501: 9 -> LEARN {servers: [1,3,4,5,7,8,9], secret_owner: 1} (ROUND FINISHED)
+ROUND 502: PREPARE {20,9} -> 1
+BAD COMMAND IGNORED: Invalid Dest Id 2
+ROUND 502: PREPARE {20,9} -> 3
+ROUND 502: 1 -> PROMISE {20,9} no_proposal
+ROUND 502: PREPARE {20,9} -> 4
+ROUND 502: 3 -> PROMISE {20,9} no_proposal
+ROUND 502: PREPARE {20,9} -> 5
+ROUND 502: 4 -> PROMISE {20,9} no_proposal
+ROUND 502: PREPARE {20,9} -> 7
+ROUND 502: 5 -> PROMISE {20,9} no_proposal
+ROUND 502: PREPARE {20,9} -> 8
+ROUND 502: 7 -> PROMISE {20,9} no_proposal
+ROUND 502: PREPARE {20,9} -> 9
+ROUND 502: 8 -> PROMISE {20,9} no_proposal
+ROUND 502: 9 -> PREPARE {20,9}
+ROUND 502: PROMISE {20,9} no_proposal -> 9
+ROUND 502: 9 -> PROMISE {20,9} no_proposal
+ROUND 502: ACCEPT {id: {20,9}, value: {servers: [1,4,5,7,8,9], secret_owner: 1}} -> 1
+ROUND 502: ACCEPT {id: {20,9}, value: {servers: [1,4,5,7,8,9], secret_owner: 1}} -> 4
+ROUND 502: ACCEPT {id: {20,9}, value: {servers: [1,4,5,7,8,9], secret_owner: 1}} -> 5
+ROUND 502: 1 -> ACCEPTED {servers: [1,4,5,7,8,9], secret_owner: 1}
+ROUND 502: ACCEPT {id: {20,9}, value: {servers: [1,4,5,7,8,9], secret_owner: 1}} -> 7
+ROUND 502: 4 -> ACCEPTED {servers: [1,4,5,7,8,9], secret_owner: 1}
+ROUND 502: 5 -> ACCEPTED {servers: [1,4,5,7,8,9], secret_owner: 1}
+ROUND 502: ACCEPT {id: {20,9}, value: {servers: [1,4,5,7,8,9], secret_owner: 1}} -> 8
+ROUND 502: 7 -> ACCEPTED {servers: [1,4,5,7,8,9], secret_owner: 1}
+ROUND 502: ACCEPT {id: {20,9}, value: {servers: [1,4,5,7,8,9], secret_owner: 1}} -> 9
+ROUND 502: 9 -> LEARN {servers: [1,4,5,7,8,9], secret_owner: 1} (ROUND FINISHED)
+ROUND 503: PREPARE {30,9} -> 1
+BAD COMMAND IGNORED: Invalid Dest Id 3
+ROUND 503: PREPARE {30,9} -> 4
+ROUND 503: 1 -> PROMISE {30,9} no_proposal
+ROUND 503: PREPARE {30,9} -> 5
+ROUND 503: 4 -> PROMISE {30,9} no_proposal
+ROUND 503: PREPARE {30,9} -> 7
+ROUND 503: 5 -> PROMISE {30,9} no_proposal
+ROUND 503: PREPARE {30,9} -> 8
+ROUND 503: 7 -> PROMISE {30,9} no_proposal
+ROUND 503: PREPARE {30,9} -> 9
+ROUND 503: 8 -> PROMISE {30,9} no_proposal
+ROUND 503: 9 -> PREPARE {30,9}
+ROUND 503: PROMISE {30,9} no_proposal -> 9
+ROUND 503: 9 -> PROMISE {30,9} no_proposal
+ROUND 503: ACCEPT {id: {30,9}, value: {servers: [1,5,7,8,9], secret_owner: 1}} -> 1
+ROUND 503: ACCEPT {id: {30,9}, value: {servers: [1,5,7,8,9], secret_owner: 1}} -> 5
+ROUND 503: ACCEPT {id: {30,9}, value: {servers: [1,5,7,8,9], secret_owner: 1}} -> 7
+ROUND 503: 1 -> ACCEPTED {servers: [1,5,7,8,9], secret_owner: 1}
+ROUND 503: ACCEPT {id: {30,9}, value: {servers: [1,5,7,8,9], secret_owner: 1}} -> 8
+ROUND 503: 5 -> ACCEPTED {servers: [1,5,7,8,9], secret_owner: 1}
+ROUND 503: 7 -> ACCEPTED {servers: [1,5,7,8,9], secret_owner: 1}
+ROUND 503: ACCEPT {id: {30,9}, value: {servers: [1,5,7,8,9], secret_owner: 1}} -> 9
+ROUND 503: 8 -> ACCEPTED {servers: [1,5,7,8,9], secret_owner: 1}
+ROUND 503: 9 -> ACCEPT {id: {30,9}, value: {servers: [1,5,7,8,9], secret_owner: 1}}
+ROUND 503: ACCEPTED {servers: [1,5,7,8,9], secret_owner: 1} -> 9
+ROUND 503: ACCEPTED {servers: [1,5,7,8,9], secret_owner: 1} -> 1
+ROUND 503: ACCEPTED {servers: [1,5,7,8,9], secret_owner: 1} -> 4
+ROUND 503: ACCEPTED {servers: [1,5,7,8,9], secret_owner: 1} -> 5
+ROUND 503: ACCEPTED {servers: [1,5,7,8,9], secret_owner: 1} -> 7
+ROUND 503: ACCEPTED {servers: [1,5,7,8,9], secret_owner: 1} -> 8
+ROUND 503: 9 -> LEARN {servers: [1,5,7,8,9], secret_owner: 1} (ROUND FINISHED)
+ROUND 504: PREPARE {40,9} -> 1
+BAD COMMAND IGNORED: Invalid Dest Id 4
+ROUND 504: PREPARE {40,9} -> 5
+ROUND 504: 1 -> PROMISE {40,9} no_proposal
+ROUND 504: PREPARE {40,9} -> 7
+ROUND 504: PREPARE {40,9} -> 8
+ROUND 504: 5 -> PROMISE {40,9} no_proposal
+ROUND 504: PREPARE {40,9} -> 9
+ROUND 504: 7 -> PROMISE {40,9} no_proposal
+ROUND 504: 8 -> PROMISE {40,9} no_proposal
+ROUND 504: 9 -> PREPARE {40,9}
+ROUND 504: PROMISE {40,9} no_proposal -> 9
+ROUND 504: 9 -> PROMISE {40,9} no_proposal
+ROUND 504: ACCEPT {id: {40,9}, value: {servers: [1,7,8,9], secret_owner: 1}} -> 1
+ROUND 504: ACCEPT {id: {40,9}, value: {servers: [1,7,8,9], secret_owner: 1}} -> 7
+ROUND 504: ACCEPT {id: {40,9}, value: {servers: [1,7,8,9], secret_owner: 1}} -> 8
+ROUND 504: 1 -> ACCEPTED {servers: [1,7,8,9], secret_owner: 1}
+ROUND 504: ACCEPT {id: {40,9}, value: {servers: [1,7,8,9], secret_owner: 1}} -> 9
+ROUND 504: 9 -> ACCEPT {id: {40,9}, value: {servers: [1,7,8,9], secret_owner: 1}}
+ROUND 504: ACCEPTED {servers: [1,7,8,9], secret_owner: 1} -> 9
+ROUND 504: ACCEPTED {servers: [1,7,8,9], secret_owner: 1} -> 1
+ROUND 504: ACCEPTED {servers: [1,7,8,9], secret_owner: 1} -> 5
+ROUND 504: ACCEPTED {servers: [1,7,8,9], secret_owner: 1} -> 7
+ROUND 504: ACCEPTED {servers: [1,7,8,9], secret_owner: 1} -> 8
+ROUND 504: 7 -> ACCEPTED {servers: [1,7,8,9], secret_owner: 1}
+ROUND 504: 9 -> ACCEPTED {servers: [1,7,8,9], secret_owner: 1}
+ROUND 504: 8 -> ACCEPTED {servers: [1,7,8,9], secret_owner: 1}
+ROUND 504: 9 -> LEARN {servers: [1,7,8,9], secret_owner: 1} (ROUND FINISHED)
+ROUND 505: PREPARE {50,9} -> 1
+BAD COMMAND IGNORED: Invalid Dest Id 5
+ROUND 505: PREPARE {50,9} -> 7
+ROUND 505: 1 -> PROMISE {50,9} no_proposal
+ROUND 505: PREPARE {50,9} -> 8
+ROUND 505: PREPARE {50,9} -> 9
+ROUND 505: 7 -> PROMISE {50,9} no_proposal
+ROUND 505: 8 -> PROMISE {50,9} no_proposal
+ROUND 505: 9 -> PREPARE {50,9}
+ROUND 505: PROMISE {50,9} no_proposal -> 9
+ROUND 505: 9 -> PROMISE {50,9} no_proposal
+ROUND 505: 7 -> ACCEPTED {servers: [1,7,8,9], secret_owner: 7}
+ROUND 505: 1 -> ACCEPTED {servers: [1,7,8,9], secret_owner: 7}
+ROUND 505: 8 -> ACCEPTED {servers: [1,7,8,9], secret_owner: 7}
+ROUND 505: 9 -> LEARN {servers: [1,7,8,9], secret_owner: 7} (ROUND FINISHED)
+BAD COMMAND IGNORED: Not enough promises
+BAD COMMAND IGNORED: Not enough promises
+BAD COMMAND IGNORED: Not enough promises
+ROUND 506: PREPARE {60,9} -> 1
+ROUND 506: PREPARE {60,9} -> 7
+ROUND 506: PREPARE {60,9} -> 8
+ROUND 506: 1 -> PROMISE {60,9} no_proposal
+ROUND 506: PREPARE {60,9} -> 9
+ROUND 506: 7 -> PROMISE {60,9} no_proposal
+ROUND 506: 8 -> PROMISE {60,9} no_proposal
+ROUND 506: 9 -> PREPARE {60,9}
+ROUND 506: PROMISE {60,9} no_proposal -> 9
+ROUND 506: 9 -> PROMISE {60,9} no_proposal
+ROUND 506: ACCEPT {id: {60,9}, value: {servers: [7,8,9], secret_owner: 7}} -> 7
+ROUND 506: ACCEPT {id: {60,9}, value: {servers: [7,8,9], secret_owner: 7}} -> 8
+ROUND 506: ACCEPT {id: {60,9}, value: {servers: [7,8,9], secret_owner: 7}} -> 9
+ROUND 506: 7 -> ACCEPTED {servers: [7,8,9], secret_owner: 7}
+ROUND 506: 8 -> ACCEPTED {servers: [7,8,9], secret_owner: 7}
+ROUND 506: 9 -> ACCEPT {id: {60,9}, value: {servers: [7,8,9], secret_owner: 7}}
+ROUND 506: ACCEPTED {servers: [7,8,9], secret_owner: 7} -> 9
+ROUND 506: ACCEPTED {servers: [7,8,9], secret_owner: 7} -> 1
+ROUND 506: ACCEPTED {servers: [7,8,9], secret_owner: 7} -> 7
+ROUND 506: ACCEPTED {servers: [7,8,9], secret_owner: 7} -> 8
+ROUND 506: 9 -> ACCEPTED {servers: [7,8,9], secret_owner: 7}
+ROUND 506: 9 -> LEARN {servers: [7,8,9], secret_owner: 7} (ROUND FINISHED)
+ROUND 507: 8 -> ACCEPTED {servers: [7,8,9], secret_owner: 8}
+ROUND 507: 7 -> ACCEPTED {servers: [7,8,9], secret_owner: 8}
+ROUND 507: 9 -> LEARN {servers: [7,8,9], secret_owner: 8} (ROUND FINISHED)
+BAD COMMAND IGNORED: Invalid Dest Id 1
+ROUND 508: PREPARE {70,9} -> 7
+ROUND 508: PREPARE {70,9} -> 8
+ROUND 508: PREPARE {70,9} -> 9
+ROUND 508: 7 -> PROMISE {70,9} no_proposal
+ROUND 508: 8 -> PROMISE {70,9} no_proposal
+ROUND 508: 9 -> PREPARE {70,9}
+ROUND 508: PROMISE {70,9} no_proposal -> 9
+ROUND 508: 9 -> PROMISE {70,9} no_proposal
+ROUND 508: 7 -> ACCEPTED {servers: [7,8,9], secret_owner: 7}
+ROUND 508: 8 -> ACCEPTED {servers: [7,8,9], secret_owner: 7}
+ROUND 508: 9 -> LEARN {servers: [7,8,9], secret_owner: 7} (ROUND FINISHED)
+ROUND 509: 7 -> ACCEPTED {servers: [7,8,9,10], secret_owner: 7}
+ROUND 509: 8 -> ACCEPTED {servers: [7,8,9,10], secret_owner: 7}
+ROUND 509: 9 -> LEARN {servers: [7,8,9,10], secret_owner: 7} (ROUND FINISHED)
+ROUND 510: PREPARE {80,9} -> 7
+ROUND 510: PREPARE {80,9} -> 8
+ROUND 510: PREPARE {80,9} -> 9
+ROUND 510: 7 -> PROMISE {80,9} no_proposal
+ROUND 510: PREPARE {80,9} -> 10
+ROUND 510: 8 -> PROMISE {80,9} no_proposal
+ROUND 510: 9 -> PREPARE {80,9}
+ROUND 510: PROMISE {80,9} no_proposal -> 9
+ROUND 510: 10 -> PROMISE {80,9} no_proposal
+ROUND 510: 9 -> PROMISE {80,9} no_proposal
+ROUND 510: 10 -> ACCEPTED {servers: [7,8,9,10], secret_owner: 10}
+ROUND 510: 8 -> ACCEPTED {servers: [7,8,9,10], secret_owner: 10}
+ROUND 510: 7 -> ACCEPTED {servers: [7,8,9,10], secret_owner: 10}
+ROUND 510: 9 -> LEARN {servers: [7,8,9,10], secret_owner: 10} (ROUND FINISHED)
+BAD COMMAND IGNORED: Not enough promises
+BAD COMMAND IGNORED: Not enough promises
+BAD COMMAND IGNORED: Not enough promises
+ROUND 511: PREPARE {90,9} -> 7
+ROUND 511: PREPARE {90,9} -> 8
+ROUND 511: PREPARE {90,9} -> 9
+ROUND 511: 7 -> PROMISE {90,9} no_proposal
+ROUND 511: PREPARE {90,9} -> 10
+ROUND 511: 8 -> PROMISE {90,9} no_proposal
+ROUND 511: 9 -> PREPARE {90,9}
+ROUND 511: PROMISE {90,9} no_proposal -> 9
+ROUND 511: 10 -> PROMISE {90,9} no_proposal
+ROUND 511: 9 -> PROMISE {90,9} no_proposal
+ROUND 511: ACCEPT {id: {90,9}, value: {servers: [8,9,10], secret_owner: 10}} -> 8
+ROUND 511: ACCEPT {id: {90,9}, value: {servers: [8,9,10], secret_owner: 10}} -> 9
+ROUND 511: ACCEPT {id: {90,9}, value: {servers: [8,9,10], secret_owner: 10}} -> 10
+ROUND 511: 8 -> ACCEPTED {servers: [8,9,10], secret_owner: 10}
+ROUND 511: 9 -> ACCEPT {id: {90,9}, value: {servers: [8,9,10], secret_owner: 10}}
+ROUND 511: ACCEPTED {servers: [8,9,10], secret_owner: 10} -> 9
+ROUND 511: ACCEPTED {servers: [8,9,10], secret_owner: 10} -> 7
+ROUND 511: ACCEPTED {servers: [8,9,10], secret_owner: 10} -> 8
+ROUND 511: ACCEPTED {servers: [8,9,10], secret_owner: 10} -> 10
+ROUND 511: 10 -> ACCEPTED {servers: [8,9,10], secret_owner: 10}
+ROUND 511: 9 -> ACCEPTED {servers: [8,9,10], secret_owner: 10}
+ROUND 511: 9 -> LEARN {servers: [8,9,10], secret_owner: 10} (ROUND FINISHED)
+ROUND 512: 8 -> ACCEPTED {servers: [8,9,10], secret_owner: 8}
+ROUND 512: 10 -> ACCEPTED {servers: [8,9,10], secret_owner: 8}
+ROUND 512: 9 -> LEARN {servers: [8,9,10], secret_owner: 8} (ROUND FINISHED)
+ROUND 513: 8 -> ACCEPTED {servers: [8,9,10,11], secret_owner: 8}
+ROUND 513: 10 -> ACCEPTED {servers: [8,9,10,11], secret_owner: 8}
+ROUND 513: 9 -> LEARN {servers: [8,9,10,11], secret_owner: 8} (ROUND FINISHED)
+BAD COMMAND IGNORED: Invalid Dest Id 7
+ROUND 514: PREPARE {100,9} -> 8
+ROUND 514: PREPARE {100,9} -> 9
+ROUND 514: PREPARE {100,9} -> 10
+ROUND 514: 8 -> PROMISE {100,9} no_proposal
+ROUND 514: 9 -> PREPARE {100,9}
+ROUND 514: PROMISE {100,9} no_proposal -> 9
+ROUND 514: 10 -> PROMISE {100,9} no_proposal
+ROUND 514: 9 -> PROMISE {100,9} no_proposal
+ROUND 514: 8 -> ACCEPTED {servers: [8,9,10,11,12], secret_owner: 8}
+ROUND 514: 10 -> ACCEPTED {servers: [8,9,10,11,12], secret_owner: 8}
+ROUND 514: 11 -> ACCEPTED {servers: [8,9,10,11,12], secret_owner: 8}
+ROUND 514: 9 -> LEARN {servers: [8,9,10,11,12], secret_owner: 8} (ROUND FINISHED)
+ROUND 515: PREPARE {110,9} -> 8
+ROUND 515: PREPARE {110,9} -> 9
+ROUND 515: PREPARE {110,9} -> 10
+ROUND 515: 8 -> PROMISE {110,9} no_proposal
+ROUND 515: 9 -> PREPARE {110,9}
+ROUND 515: PROMISE {110,9} no_proposal -> 9
+ROUND 515: PREPARE {110,9} -> 11
+ROUND 515: 10 -> PROMISE {110,9} no_proposal
+ROUND 515: 9 -> PROMISE {110,9} no_proposal
+ROUND 515: PREPARE {110,9} -> 12
+ROUND 515: 11 -> PROMISE {110,9} no_proposal
+ROUND 515: 12 -> PROMISE {110,9} no_proposal
+ROUND 515: ACCEPT {id: {110,9}, value: {servers: [8,9,11,12], secret_owner: 8}} -> 8
+ROUND 515: ACCEPT {id: {110,9}, value: {servers: [8,9,11,12], secret_owner: 8}} -> 9
+ROUND 515: ACCEPT {id: {110,9}, value: {servers: [8,9,11,12], secret_owner: 8}} -> 11
+ROUND 515: 8 -> ACCEPTED {servers: [8,9,11,12], secret_owner: 8}
+ROUND 515: 9 -> ACCEPT {id: {110,9}, value: {servers: [8,9,11,12], secret_owner: 8}}
+ROUND 515: ACCEPTED {servers: [8,9,11,12], secret_owner: 8} -> 9
+ROUND 515: ACCEPTED {servers: [8,9,11,12], secret_owner: 8} -> 8
+ROUND 515: ACCEPTED {servers: [8,9,11,12], secret_owner: 8} -> 10
+ROUND 515: ACCEPTED {servers: [8,9,11,12], secret_owner: 8} -> 11
+ROUND 515: ACCEPTED {servers: [8,9,11,12], secret_owner: 8} -> 12
+ROUND 515: ACCEPT {id: {110,9}, value: {servers: [8,9,11,12], secret_owner: 8}} -> 12
+ROUND 515: 11 -> ACCEPTED {servers: [8,9,11,12], secret_owner: 8}
+ROUND 515: 9 -> ACCEPTED {servers: [8,9,11,12], secret_owner: 8}
+ROUND 515: 9 -> LEARN {servers: [8,9,11,12], secret_owner: 8} (ROUND FINISHED)
+ROUND 516: PREPARE {120,9} -> 8
+ROUND 516: PREPARE {120,9} -> 9
+BAD COMMAND IGNORED: Invalid Dest Id 10
+ROUND 516: 8 -> PROMISE {120,9} no_proposal
+ROUND 516: 9 -> PREPARE {120,9}
+ROUND 516: PROMISE {120,9} no_proposal -> 9
+ROUND 516: PREPARE {120,9} -> 11
+ROUND 516: 9 -> PROMISE {120,9} no_proposal
+ROUND 516: PREPARE {120,9} -> 12
+ROUND 516: 11 -> PROMISE {120,9} no_proposal
+ROUND 516: 12 -> PROMISE {120,9} no_proposal
+ROUND 516: 11 -> ACCEPTED {servers: [8,9,11,12], secret_owner: 11}
+ROUND 516: 8 -> ACCEPTED {servers: [8,9,11,12], secret_owner: 11}
+ROUND 516: 12 -> ACCEPTED {servers: [8,9,11,12], secret_owner: 11}
+ROUND 516: 9 -> LEARN {servers: [8,9,11,12], secret_owner: 11} (ROUND FINISHED)
+BAD COMMAND IGNORED: Not enough promises
+BAD COMMAND IGNORED: Not enough promises
+BAD COMMAND IGNORED: Not enough promises
+ROUND 517: 8 -> ACCEPTED {servers: [8,9,11,12], secret_owner: 8}
+ROUND 517: 11 -> ACCEPTED {servers: [8,9,11,12], secret_owner: 8}
+ROUND 517: 12 -> ACCEPTED {servers: [8,9,11,12], secret_owner: 8}
+ROUND 517: 9 -> LEARN {servers: [8,9,11,12], secret_owner: 8} (ROUND FINISHED)
+ROUND 518: PREPARE {130,9} -> 8
+ROUND 518: PREPARE {130,9} -> 9
+ROUND 518: PREPARE {130,9} -> 11
+ROUND 518: 8 -> PROMISE {130,9} no_proposal
+ROUND 518: 9 -> PREPARE {130,9}
+ROUND 518: PROMISE {130,9} no_proposal -> 9
+ROUND 518: PREPARE {130,9} -> 12
+ROUND 518: 11 -> PROMISE {130,9} no_proposal
+ROUND 518: 9 -> PROMISE {130,9} no_proposal
+ROUND 518: 12 -> PROMISE {130,9} no_proposal
+ROUND 518: ACCEPT {id: {130,9}, value: {servers: [8,9,12], secret_owner: 8}} -> 8
+ROUND 518: ACCEPT {id: {130,9}, value: {servers: [8,9,12], secret_owner: 8}} -> 9
+ROUND 518: ACCEPT {id: {130,9}, value: {servers: [8,9,12], secret_owner: 8}} -> 12
+ROUND 518: 8 -> ACCEPTED {servers: [8,9,12], secret_owner: 8}
+ROUND 518: 9 -> ACCEPT {id: {130,9}, value: {servers: [8,9,12], secret_owner: 8}}
+ROUND 518: ACCEPTED {servers: [8,9,12], secret_owner: 8} -> 9
+ROUND 518: ACCEPTED {servers: [8,9,12], secret_owner: 8} -> 8
+ROUND 518: ACCEPTED {servers: [8,9,12], secret_owner: 8} -> 11
+ROUND 518: ACCEPTED {servers: [8,9,12], secret_owner: 8} -> 12
+ROUND 518: 9 -> ACCEPTED {servers: [8,9,12], secret_owner: 8}
+ROUND 518: 12 -> ACCEPTED {servers: [8,9,12], secret_owner: 8}
+ROUND 518: 9 -> LEARN {servers: [8,9,12], secret_owner: 8} (ROUND FINISHED)
+ROUND 519: 12 -> ACCEPTED {servers: [8,9,12], secret_owner: 12}
+ROUND 519: 8 -> ACCEPTED {servers: [8,9,12], secret_owner: 12}
+ROUND 519: 9 -> LEARN {servers: [8,9,12], secret_owner: 12} (ROUND FINISHED)
+ROUND 520: 8 -> ACCEPTED {servers: [8,9,12], secret_owner: 8}
+ROUND 520: 12 -> ACCEPTED {servers: [8,9,12], secret_owner: 8}
+ROUND 520: 9 -> LEARN {servers: [8,9,12], secret_owner: 8} (ROUND FINISHED)
+ROUND 521: PREPARE {140,9} -> 8
+ROUND 521: PREPARE {140,9} -> 9
+BAD COMMAND IGNORED: Invalid Dest Id 11
+ROUND 521: 8 -> PROMISE {140,9} no_proposal
+ROUND 521: 9 -> PREPARE {140,9}
+ROUND 521: PROMISE {140,9} no_proposal -> 9
+ROUND 521: PREPARE {140,9} -> 12
+ROUND 521: 9 -> PROMISE {140,9} no_proposal
+ROUND 521: 12 -> PROMISE {140,9} no_proposal
